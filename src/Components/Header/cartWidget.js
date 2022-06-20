@@ -1,7 +1,7 @@
 import React from "react";
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
-const Carrito = () =>{
+const CartWidget = () =>{
     return(
         <>
         <ShoppingCartIcon fontSize="large"/>
@@ -9,4 +9,4 @@ const Carrito = () =>{
     )
 }
 
-export default Carrito
+export default CartWidget

@@ -1,13 +1,12 @@
 import React from "react";
 import NavBar from "./navBar";
-import Carrito from "./carrito"
+
 //import "./header.css"
 
 const Header = () =>{
     return(
         <header style={styles.header}>
         <NavBar />
-        <Carrito />
         </header>
     )
 }
@@ -20,7 +19,6 @@ const styles = {
         flexDirection: "row",
         justifyContent: "space-between",
         alignItems: "center",
-        padding: "0 2em"
     }
 }
 
